@@ -47,7 +47,7 @@ function bindTextarea () {
               .replace(/%U/g, fontStyles.underline)
               .replace(/%C/g, fontStyles.color)
               .replace(/%idiot/g, 'ಠ_ಠ')
-              .replace(/%trout/g, 'around a bit with a \u000301r\u000302a\u000303i\u000304n\u000305b\u000306o\u000307w \u000308t\u000309r\u000310o\u000311u\u000312t!');
+              .replace(/%trout/g, 'around a bit with a \u000301r\u000302a\u000303i\u000304n\u000305b\u000306o\u000307w \u000308t\u000309r\u000310o\u000311u\u000312t!\u000f');
         input.val(val);
       }
     });
